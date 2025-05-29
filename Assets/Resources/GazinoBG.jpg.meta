@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GazinoBG_0: 864746416404377708
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -34,11 +34,11 @@ public class CardController : MonoBehaviour
     private void GetSpriteSheets()
     {
         cardSpriteSheets = new Sprite[5][];
-        cardSpriteSheets[0] = Resources.LoadAll<Sprite>("Clubs");
-        cardSpriteSheets[1] = Resources.LoadAll<Sprite>("Diamonds");
-        cardSpriteSheets[2] = Resources.LoadAll<Sprite>("Hearts");
-        cardSpriteSheets[3] = Resources.LoadAll<Sprite>("Spades");
-        cardSpriteSheets[4] = Resources.LoadAll<Sprite>("Back");
+        cardSpriteSheets[0] = Resources.LoadAll<Sprite>("Cards/Clubs");
+        cardSpriteSheets[1] = Resources.LoadAll<Sprite>("Cards/Diamonds");
+        cardSpriteSheets[2] = Resources.LoadAll<Sprite>("Cards/Hearts");
+        cardSpriteSheets[3] = Resources.LoadAll<Sprite>("Cards/Spades");
+        cardSpriteSheets[4] = Resources.LoadAll<Sprite>("Cards/Back");
     }
 
     public void UpdateSprite()
