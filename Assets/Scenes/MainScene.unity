@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 229448836}
   - component: {fileID: 229448835}
   m_Layer: 0
-  m_Name: CoinSpawnerManager
+  m_Name: CardSpawnerManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
