@@ -30,11 +30,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1803637040683634495}
+  m_Father: {fileID: 8002565075265825381}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -5.0853}
+  m_AnchoredPosition: {x: 0.0000076293945, y: 0}
   m_SizeDelta: {x: 134.8606, y: 41.7095}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &679899074632412708
@@ -130,13 +130,13 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -15.807617, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!1 &2295847336817411270
+--- !u!1 &1672982655531998411
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,23 +144,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1803637040683634495}
-  - component: {fileID: 7307340413891390076}
-  - component: {fileID: 5838960434345757757}
+  - component: {fileID: 8002565075265825381}
+  - component: {fileID: 8156529768812307445}
+  - component: {fileID: 1510925070183172897}
   m_Layer: 5
-  m_Name: MoneyPanel
+  m_Name: Money
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1803637040683634495
+--- !u!224 &8002565075265825381
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2295847336817411270}
+  m_GameObject: {fileID: 1672982655531998411}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -169,41 +169,41 @@ RectTransform:
   - {fileID: 2875045483680783047}
   m_Father: {fileID: 2214408944868486797}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -358.86, y: 143.06}
-  m_SizeDelta: {x: -717.7175, y: -286.12}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -338.06, y: 177}
+  m_SizeDelta: {x: 183.22, y: 70.1413}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &7307340413891390076
+--- !u!222 &8156529768812307445
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2295847336817411270}
+  m_GameObject: {fileID: 1672982655531998411}
   m_CullTransparentMesh: 1
---- !u!114 &5838960434345757757
+--- !u!114 &1510925070183172897
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2295847336817411270}
+  m_GameObject: {fileID: 1672982655531998411}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3496351, g: 0.9150943, b: 0.43488654, a: 0.5686275}
+  m_Color: {r: 0.43867922, g: 1, b: 0.534823, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -1018132181532940152, guid: 7e4d290dd6a19654cb2f45cd4b2d6d2a, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -245,7 +245,7 @@ RectTransform:
   m_Children:
   - {fileID: 7584907845359438685}
   - {fileID: 45975107715053761}
-  - {fileID: 1803637040683634495}
+  - {fileID: 8002565075265825381}
   m_Father: {fileID: 8797575706034222016}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
